@@ -10,13 +10,29 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="世界上最大的同性交友网站欢迎您！。">
-<meta property="og:title" content="开启Github博客的第一篇文章吧！">
-<meta property="og:description" content="世界上最大的同性交友网站欢迎您！。">
+<meta name="description" content="虽然很多人已经不再使用导航页，但浏览器收藏夹的最终形态就是一个私有hao123
+
+# 自媒体平台-图文
+
+# 自媒体平台-短视频
+
+# 创作工具
+
+# 游戏下载站。">
+<meta property="og:title" content="导航页">
+<meta property="og:description" content="虽然很多人已经不再使用导航页，但浏览器收藏夹的最终形态就是一个私有hao123
+
+# 自媒体平台-图文
+
+# 自媒体平台-短视频
+
+# 创作工具
+
+# 游戏下载站。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://henry-chang.github.io/post/kai-qi-Github-bo-ke-de-di-yi-pian-wen-zhang-ba-%EF%BC%81.html">
+<meta property="og:url" content="https://henry-chang.github.io/post/dao-hang-ye.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>开启Github博客的第一篇文章吧！</title>
+<title>导航页</title>
 
 
 
@@ -49,7 +65,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">开启Github博客的第一篇文章吧！</h1>
+<h1 class="postTitle">导航页</h1>
 <div class="title-right">
     <a href="https://henry-chang.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -57,7 +73,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Henry-Chang/henry-chang.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Henry-Chang/henry-chang.github.io/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,7 +89,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>世界上最大的同性交友网站欢迎您！</p></div>
+<div class="markdown-body" id="postBody"><p>虽然很多人已经不再使用导航页，但浏览器收藏夹的最终形态就是一个私有hao123</p>
+<h1>自媒体平台-图文</h1>
+<h1>自媒体平台-短视频</h1>
+<h1>创作工具</h1>
+<h1>游戏下载站</h1></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处，禁止商业用途</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -132,7 +152,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
